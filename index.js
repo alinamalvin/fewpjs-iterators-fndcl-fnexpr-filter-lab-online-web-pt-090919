@@ -3,7 +3,7 @@ const string = 'Bobby';
 
 function findMatching(array, driver) {
     return array.filter( driver => {
-        return driver.toLowerCase() == driver.toLowerCase()
+        return d.toLowerCase() == driver.toLowerCase()
     }) 
 }
 
