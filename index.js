@@ -1,11 +1,12 @@
 const array = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
 const string = 'Bobby';
 
-const findMatching = (drivers, string) => {
-let foundDrivers = drivers.filter(driver => {
-  return driver.toLowerCase() === string.toLowerCase()
-})
+function findMatching(array, driver) {
+    return array.filter( d => {
+        return d.toLowerCase() == driver.toLowerCase()
+    }) 
 }
+
 
 
 
