@@ -1,5 +1,5 @@
 // Code your solution here
-const findMatching = (drivers) {
+const findMatching = (drivers) => {
 let string;
 drivers.filter(string => {
   return string === string;
