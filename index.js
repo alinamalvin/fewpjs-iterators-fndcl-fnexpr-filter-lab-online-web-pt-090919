@@ -2,7 +2,7 @@
 const findMatching = (drivers) => {
 let string;
 drivers.filter(string => {
-  return string === string;
+  return string === 'Bobby';
 })
 }
 
