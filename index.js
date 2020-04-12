@@ -1,19 +1,5 @@
-let drivers = [{
-    "name": "tom"
-  },
-  {
-    "name": "bobby"
-  },
-  {
-    "name": "mike"
-  },
-  {
-    "name": "jeremy"
-  },
-  {
-    "name": "richard"
-  },
-]
+const array = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
+const string = 'Bobby';
 
 const findMatching = (drivers, string) => {
 let foundDrivers = drivers.filter(driver => {
